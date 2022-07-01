@@ -66,7 +66,7 @@ export const withContext = (
  * Attaches to request data like requestId and correlationId etc
  * @param mapperFunc
  */
-export const appendToContext = (mapperFunc: (context: RequestContext, req: Request) => NextFunction) => (
+export const appendToContext = (mapperFunc: (context: RequestContext, req: Request) => void) => (
     _req: Request,
     _res: Response,
     next: NextFunction,

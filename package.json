@@ -1,5 +1,5 @@
 {
-  "name": "contextual-middleware",
+  "name": "@sheesusman/contextual-middleware",
   "version": "1.0.0",
   "description": "A contextual middleware to attach contentext to node requests to be accessed anywhere.",
   "main": "dist/index.js",
@@ -8,20 +8,21 @@
     "/dist"
   ],
   "scripts": {
-    "build": "tsc && cp ./README.md ./dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && cp ./README.md ./dist"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/shees-usman/contextual-middleware.git"
   },
   "keywords": [
+    "nestjs",
     "context",
+    "middleware",
     "nodejs",
     "node"
   ],
   "author": "Shees Usman <shees.usman421@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shees-usman/contextual-middleware/issues"
   },
