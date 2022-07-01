@@ -1,7 +1,7 @@
 {
   "name": "@sheesusman/contextual-middleware",
   "version": "1.0.0",
-  "description": "A contextual middleware to attach contentext to node requests to be accessed anywhere.",
+  "description": "A contextual middleware to attach context to node requests to be accessed anywhere.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
