@@ -5,7 +5,7 @@ This context object can then be accessed from anywhere within the lifecycle of t
 
 ## Getting Started
 To supercharge your transaction contexts with this library you must perform the following steps.
-1. Install the library `npm i contextual-middleware --save`
+1. Install the library `npm i @sheesusman/contextual-middleware --save`
 2. Add the middleware to all requests in `main.ts`
    ```
       export class AppModule implements NestModule {
